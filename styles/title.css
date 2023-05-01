@@ -1,0 +1,61 @@
+.title-img {
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url('../resources/chair.png');
+    background-repeat: no-repeat;   
+}
+ .title-text  {
+    position: absolute;
+    max-width: 430px;
+    font-size: 20px;
+    line-height: 27px;
+    left: 40px;
+    bottom: 40px;  
+}
+.title-maintext {
+    max-width: 956px;
+}
+@media (max-width: 1199px) {
+    .title-maintext {
+        max-width: 802px;
+    }
+    .title-img {
+        height: 400px; 
+        background-position:center;
+        background-size: cover;
+    }
+    .title-text {
+        bottom: 30px;  
+    }
+}
+@media (max-width: 767px) {
+    .title-maintext {
+        max-width: 337px;
+    }
+    .title-img {
+        margin-top: 25px;
+        height: 304px;
+    }
+    .title-text {
+        max-width: 312px;
+        font-size: 16px;
+        line-height: 22px;
+        left: 15px;
+        bottom: 15px;
+    }
+}
+@media (max-width: 400px) {
+    .title-img {
+        background-image: url('../resources/chair_mobile.png')
+    }  
+}
+
+
+
+
+
+
+
+
